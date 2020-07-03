@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Configurer ESLint pour VS Code
@@ -12,10 +11,10 @@ Créer un fichier .eslintrc.json à la racine du projet pour définir les règle
 Par exemple
 {% highlight json %}
 {
-"extends": [
-"plugin:adonis/typescriptApp"
-],
-"rules": {"max-len":"off"}
+    "extends": [
+        "plugin:adonis/typescriptApp"
+    ],
+    "rules": {"max-len":"off"}
 }
 {% endhighlight %}
 
